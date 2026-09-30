@@ -1,0 +1,5 @@
+# Core - everything tonight's first milestone needs. Light, installs in a minute.
+biopython==1.88
+requests==2.34.2
+groq==1.7.0
+python-dotenv==1.2.3

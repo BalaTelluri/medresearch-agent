@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/faiss_index/
+data/corpus/
+.git/
+
+*.pem
+*.key
+*.p12
+.ipynb_checkpoints/
+data/*.db.tmp*
+
+data/cache/

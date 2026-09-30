@@ -1,0 +1,8 @@
+# Slim stack for the Docker image: agent + tools + API, no torch/RAG weights.
+# The literature_rag tool reports a friendly gap inside the container until an
+# index is mounted in. Local dev uses requirements-full.txt instead.
+-r requirements.txt
+
+langgraph==1.2.12
+fastapi==0.141.1
+uvicorn==0.54.0

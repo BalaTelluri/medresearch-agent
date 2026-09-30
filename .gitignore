@@ -1,0 +1,26 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/faiss_index/
+data/*.sqlite
+.ipynb_checkpoints/
+.DS_Store
+
+# Local data and secrets; committed snapshot is data/faers_real.db.
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.sqlite3
+data/corpus/
+data/faers_real.db.tmp*
+data/*-journal
+data/*-wal
+data/*-shm
+# Raw benchmark outputs may contain full model answers and query text.
+eval/results/
+
+data/cache/

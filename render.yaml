@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: medresearch-agent
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: GROQ_API_KEY
+        sync: false
+      - key: NCBI_EMAIL
+        sync: false
+      - key: LLM_MODEL
+        value: openai/gpt-oss-120b
