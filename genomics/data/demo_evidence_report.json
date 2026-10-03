@@ -1,0 +1,275 @@
+{
+  "disclaimer": "Research prototype only. Not clinical validation, a diagnosis, or a therapy recommendation. Do not upload real patient data.",
+  "assembly": "GRCh38",
+  "results": [
+    {
+      "variant_id": "13-32380145-G-T",
+      "clinvar": {
+        "status": "found_snapshot",
+        "record": {
+          "variant_id": "13-32380145-G-T",
+          "variation_id": "52788",
+          "gene": "BRCA2",
+          "significance": "Pathogenic",
+          "review_status": "reviewed_by_expert_panel",
+          "condition": "Breast-ovarian_cancer,_familial,_susceptibility_to,_2",
+          "consequence": "SO:0001587|nonsense",
+          "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/52788/",
+          "snapshot": "2026-09-28",
+          "assembly": "GRCh38"
+        }
+      },
+      "gnomad": {
+        "status": "not_found",
+        "dataset": "gnomad_r4",
+        "assembly": "GRCh38",
+        "data": null,
+        "retrieved_at": "2026-10-01T08:53:27.625409+00:00",
+        "source_url": "https://gnomad.broadinstitute.org/api",
+        "note": "Exome and genome frequencies are separate. Absence does not prove pathogenicity.",
+        "cached": true
+      },
+      "classifier": {
+        "status": "research_prediction",
+        "predicted_label": "pathogenic/likely pathogenic",
+        "pathogenic_score": 0.9869,
+        "note": "Model score is not calibrated clinical probability. Annotation features are not independent clinical evidence.",
+        "agrees_with_clinvar": true,
+        "seen_during_training": false
+      },
+      "literature": {
+        "status": "found",
+        "query": "BRCA2 variant",
+        "scope": "Gene-level search, not necessarily evidence about this exact allele"
+      },
+      "papers": [
+        {
+          "pmid": "29687286",
+          "title": "The BRCA1 and BRCA2 Genes in Early-Onset Breast Cancer Patients.",
+          "abstract": "Approximately 5-10% of breast cancers are attributable to genetic susceptibility. Mutations in the BRCA1 and BRCA2 genes are the best known genetic factors to date. The goal of this study was to determine the structure and distribution of haplotypes of the BRCA1 and BRCA2 genes in early-onset breast cancer patients. We enrolled 70 patients diagnosed with early-onset breast cancer. A total of 21 SNPs (11 on BRCA1 and 10 on BRCA2) and 1 dinucleotide deletion on BRCA1 were genotyped using nested allele-specific PCR methods. Linkage disequilibrium (LD) analysis was conducted, and haplotypes were deduced from the genotype data. Two tightly linked LD blocks were observed on each of the BRCA1 and BRCA2 genes. Variant-free haplotypes (TAT-AG for BRCA1 and ATA-AAT for BRCA2) were observed at a frequency of more than 50% on each gene along with variable frequencies of derived haplotypes. The variant 3'-subhaplotype CGC displayed strong LD with 5'-subhaplotypes GA, AA, and GG on BRCA1 gene. Haplotypes ATA-AGT, ATC-AAT, and ATA-AAC were the variant haplotypes frequent on BRCA2 gene. Although the clinical significance of these derived haplotypes has not yet been established, it is expected that some of these haplotypes, especially the less frequent subhaplotypes, eventually will be shown to be indicative of a predisposition to early-onset breast cancer.",
+          "authors": [
+            "Saleem Mohamed",
+            "Ghazali Mohd Bazli",
+            "Wahab Md Azlan Mohamed Abdul",
+            "Yusoff Narazah Mohd",
+            "Mahsin Hakimah",
+            "Seng Ch'ng Ewe",
+            "Khalid Imran Abdul",
+            "Rahman Mohd Nor Gohar",
+            "Yahaya Badrul Hisham"
+          ],
+          "pub_date": "2020",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/29687286/"
+        },
+        {
+          "pmid": "36623243",
+          "title": "Contralateral Breast Cancer Risk Among Carriers of Germline Pathogenic Variants in <i>ATM</i>, <i>BRCA1</i>, <i>BRCA2</i>, <i>CHEK2</i>, and <i>PALB2</i>.",
+          "abstract": "To estimate the risk of contralateral breast cancer (CBC) among women with germline pathogenic variants (PVs) in <i>ATM</i>, <i>BRCA1</i>, <i>BRCA2</i>, <i>CHEK2</i>, and <i>PALB2</i>. The study population included 15,104 prospectively followed women within the CARRIERS study treated with ipsilateral surgery for invasive breast cancer. The risk of CBC was estimated for PV carriers in each gene compared with women without PVs in a multivariate proportional hazard regression analysis accounting for the competing risk of death and adjusting for patient and tumor characteristics. The primary analyses focused on the overall cohort and on women from the general population. Secondary analyses examined associations by race/ethnicity, age at primary breast cancer diagnosis, menopausal status, and tumor estrogen receptor (ER) status. Germline <i>BRCA1</i>, <i>BRCA2</i>, and <i>CHEK2</i> PV carriers with breast cancer were at significantly elevated risk (hazard ratio > 1.9) of CBC, whereas only the <i>PALB2</i> PV carriers with ER-negative breast cancer had elevated risks (hazard ratio, 2.9). By contrast, <i>ATM</i> PV carriers did not have significantly increased CBC risks. African American PV carriers had similarly elevated risks of CBC as non-Hispanic White PV carriers. Among premenopausal women, the 10-year cumulative incidence of CBC was estimated to be 33% for <i>BRCA1</i>, 27% for <i>BRCA2</i>, and 13% for <i>CHEK2</i> PV carriers with breast cancer and 35% for <i>PALB2</i> PV carriers with ER-negative breast cancer. The 10-year cumulative incidence of CBC among postmenopausal PV carriers was 12% for <i>BRCA1</i>, 9% for <i>BRCA2</i>, and 4% for <i>CHEK2</i>. Women diagnosed with breast cancer and known to carry germline PVs in <i>BRCA1</i>, <i>BRCA2</i>, <i>CHEK2</i>, or <i>PALB2</i> are at substantially increased risk of CBC and may benefit from enhanced surveillance and risk reduction strategies.",
+          "authors": [
+            "Yadav Siddhartha",
+            "Boddicker Nicholas J",
+            "Na Jie",
+            "Polley Eric C",
+            "Hu Chunling",
+            "Hart Steven N",
+            "Gnanaolivu Rohan D",
+            "Larson Nicole",
+            "Holtegaard Susan",
+            "Huang Huaizhi",
+            "Dunn Carolyn A",
+            "Teras Lauren R",
+            "Patel Alpa V",
+            "Lacey James V",
+            "Neuhausen Susan L",
+            "Martinez Elena",
+            "Haiman Christopher",
+            "Chen Fei",
+            "Ruddy Kathryn J",
+            "Olson Janet E",
+            "John Esther M",
+            "Kurian Allison W",
+            "Sandler Dale P",
+            "O'Brien Katie M",
+            "Taylor Jack A",
+            "Weinberg Clarice R",
+            "Anton-Culver Hoda",
+            "Ziogas Argyrios",
+            "Zirpoli Gary",
+            "Goldgar David E",
+            "Palmer Julie R",
+            "Domchek Susan M",
+            "Weitzel Jeffrey N",
+            "Nathanson Katherine L",
+            "Kraft Peter",
+            "Couch Fergus J"
+          ],
+          "pub_date": "2023 Mar 20",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/36623243/"
+        },
+        {
+          "pmid": "41403285",
+          "title": "Menopausal hormone therapy and the risk of breast cancer in women with a pathogenic variant in BRCA1 or BRCA2.",
+          "abstract": "Women with a pathogenic variant in BRCA1 or BRCA2 are at high risk of developing ovarian cancer, and it is often recommended that they undergo bilateral salpingo-oophorectomy at an early age, resulting in surgical menopause. Menopausal hormone replacement therapy (HRT) is an effective way to mitigate the adverse outcomes of early menopause; however, the safety of menopausal HRT on breast cancer risk in this population has not been established. We conducted a prospective matched analysis of HRT use following menopause and breast cancer risk in BRCA carriers. Women who initiated HRT were matched one-to-one with women who had not initiated menopausal HRT by gene, year of birth, and age at menopause, resulting in 676 matched pairs. Menopausal HRT use collected by questionnaire included formulation and mode of administration. After a mean of 5.6\u2009years, there were 87 (12.9%) incident breast cancer cases in the 676 exposed women and 128 (18.9%) cases in the 676 unexposed women (P\u2009=\u2009.002). Compared with unexposed matched control individuals, women who used estrogen alone experienced a statistically significantly decreased risk of breast cancer (hazard ratio\u2009=\u20090.37, 95% CI\u2009=\u20090.24 to 0.57). No protective or adverse effect was associated with the use of estrogen plus progestogen (hazard ratio\u2009=\u20090.94, 95% CI\u2009=\u20090.54 to 1.63). Our findings suggest no substantial increase in the risk of breast cancer in BRCA carriers with the use of HRT and that estrogen alone might be protective.",
+          "authors": [
+            "Kotsopoulos Joanne",
+            "Seca Marta",
+            "Gronwald Jacek",
+            "Huzarski Tomasz",
+            "M\u00f8ller P\u00e5l",
+            "Kim Raymond H",
+            "Singer Christian F",
+            "Karlan Beth",
+            "Aeilts Amber",
+            "Ram\u00f3n Y Cajal Teresa",
+            "Pal Tuya",
+            "Eisen Andrea",
+            "Bordeleau Louise",
+            "Foulkes William D",
+            "Tung Nadine",
+            "Couch Fergus",
+            "Neuhausen Susan L",
+            "Zakalik Dana",
+            "Cybulski Cezary",
+            "Olopade Olufunmilayo",
+            "Metcalfe Kelly",
+            "Fruscio Robert",
+            "Sun Ping",
+            "Lubinski Jan",
+            "Narod Steven A"
+          ],
+          "pub_date": "2026 May 01",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41403285/"
+        }
+      ],
+      "summary": "13-32380145-G-T (GRCh38). ClinVar snapshot classification: Pathogenic; review: reviewed by expert panel; condition: Breast-ovarian cancer, familial, susceptibility to, 2. gnomAD: not_found. Population rarity alone does not establish pathogenicity. No patient phenotype, inheritance, zygosity, or validated treatment evidence assessed. No therapy recommendation."
+    },
+    {
+      "variant_id": "13-32333270-A-G",
+      "clinvar": {
+        "status": "found_snapshot",
+        "record": {
+          "variant_id": "13-32333270-A-G",
+          "variation_id": "41543",
+          "gene": "BRCA2",
+          "significance": "Benign",
+          "review_status": "reviewed_by_expert_panel",
+          "condition": "Hereditary_cancer-predisposing_syndrome|Breast_and/or_ovarian_cancer|Breast_neoplasm|not_specified|not_provided|Hereditary_breast_ovarian_cancer_syndrome|Fanconi_anemia_complementation_group_D1|Breast-ovarian_cancer,_familial,_susceptibility_to,_2|Familial_cancer_of_breast",
+          "consequence": "SO:0001583|missense_variant",
+          "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/41543/",
+          "snapshot": "2026-09-28",
+          "assembly": "GRCh38"
+        }
+      },
+      "gnomad": {
+        "status": "found",
+        "dataset": "gnomad_r4",
+        "assembly": "GRCh38",
+        "data": {
+          "variant_id": "13-32333270-A-G",
+          "exome": {
+            "ac": 2706,
+            "an": 1455294,
+            "af": 0.001859418096961851
+          },
+          "genome": {
+            "ac": 260,
+            "an": 152320,
+            "af": 0.0017069327731092437
+          }
+        },
+        "retrieved_at": "2026-10-01T08:53:28.789234+00:00",
+        "source_url": "https://gnomad.broadinstitute.org/api",
+        "note": "Exome and genome frequencies are separate. Absence does not prove pathogenicity.",
+        "cached": true
+      },
+      "classifier": {
+        "status": "research_prediction",
+        "predicted_label": "pathogenic/likely pathogenic",
+        "pathogenic_score": 0.6357,
+        "note": "Model score is not calibrated clinical probability. Annotation features are not independent clinical evidence.",
+        "agrees_with_clinvar": false,
+        "seen_during_training": false
+      },
+      "literature": {
+        "status": "found",
+        "query": "12215251[uid] OR 12845657[uid] OR 16683254[uid]",
+        "scope": "ClinVar-linked variant citations (not proof of therapy efficacy)"
+      },
+      "papers": [
+        {
+          "pmid": "12215251",
+          "title": "Characterization of common BRCA1 and BRCA2 variants.",
+          "abstract": "Many missense variants identified in BRCA1 and BRCA2, two genes responsible for the majority of hereditary breast and ovarian cancer, are of unclear clinical significance. Characterizing the significance of such variants is important for medical management of patients in whom they are identified. The aim of this study was to characterize eight of the most common reported missense mutations in BRCA1 and BRCA2 occurring in patients tested for hereditary risk of breast and ovarian cancers. The prevalence of each variant in a control population, co-segregation of the variant with cancer within families, location of the variant within the gene, the nature of the amino acid substitution and conservation of the wild-type amino acid among species were considered. In a control population, the BRCA1 variants M1652I, R1347G, and S1512I, were each observed at a frequency of 4.08%, 2.04%, and 2.04%, respectively, and the BRCA2 variants A2951T, V2728I, and D1420Y, were seen at 1.02%, 0.68%, and 0.34%, respectively. Although the BRCA2 variants T598A and R2034C were not seen in this group of controls, other clinical and published observations indicate that these variants are not deleterious. Based on epidemiological and biological criteria, we therefore conclude that the BRCA1 missense mutations R1347G, S1512I and M1652I, and the BRCA2 missense mutations T598A, D1420Y, R2034C, V2728I, and A2951T, are not deleterious mutations.",
+          "authors": [
+            "Deffenbaugh Amie M",
+            "Frank Thomas S",
+            "Hoffman Michael",
+            "Cannon-Albright Lisa",
+            "Neuhausen Susan L"
+          ],
+          "pub_date": "2002",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/12215251/"
+        },
+        {
+          "pmid": "12845657",
+          "title": "Prevalence of BRCA1 and BRCA2 germline mutations in young breast cancer patients: a population-based study.",
+          "abstract": "Our aim was to estimate the prevalence of mutations in the BRCA1 and BRCA2 genes among unselected incident cases of breast cancer in young women. We identified 158 incident breast cancer cases diagnosed before age 46 years in predefined geographic areas in Girona and Tarragona, Spain, during 1995-1997. Of these, 136 (86%) provided information on family history of cancer and were screened for BRCA1 and BRCA2 mutations. Nine of the 136 (6.6%) were found to carry BRCA deleterious mutations (MUT) (1 BRCA1 and 8 BRCA2), and 20 were detected with rare BRCA variants of unknown significance (UV). Both MUT and US BRCA alterations were more frequent in younger patients: 7 (11.6%) MUT and 12 (19.3%) UV carriers were found in the group of 62 patients younger than 40 years, whereas 2 (2.7%) MUT and 9 (12%) US carriers were identified in the group of 74 patients aged 40-45. Family history of breast and ovarian cancers suggestive of hereditary condition (at least 2 first- or second-degree relatives affected with breast cancer or at least 1 relative affected with ovarian cancer or early-onset breast cancer) was absent for 5 of 9 MUT carriers. This suggests that BRCA screening policies based on family history of cancer would miss a considerable proportion of BRCA mutations. Mutations in the BRCA1 and BRCA2 genes explain at least 10% of breast cancer cases diagnosed before age 40 years. The contribution of these genes to early-onset breast cancer is likely to be even higher given that certain UV cases might be disease-associated.",
+          "authors": [
+            "de Sanjos\u00e9 Silvia",
+            "L\u00e9on\u00e9 M\u00e9lanie",
+            "B\u00e9rez Victoria",
+            "Izquierdo Angel",
+            "Font Rebeca",
+            "Brunet Joan M",
+            "Louat Thierry",
+            "Vilardell Loreto",
+            "Borras Joan",
+            "Viladiu Pau",
+            "Bosch F Xavier",
+            "Lenoir Gilbert M",
+            "Sinilnikova Olga M"
+          ],
+          "pub_date": "2003 Sep 10",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/12845657/"
+        },
+        {
+          "pmid": "16683254",
+          "title": "A DGGE system for comprehensive mutation screening of BRCA1 and BRCA2: application in a Dutch cancer clinic setting.",
+          "abstract": "Rapid and reliable identification of deleterious changes in the breast cancer genes BRCA1 and BRCA2 has become one of the major issues in most DNA services laboratories. To rapidly detect all possible changes within the coding and splice site determining sequences of the breast cancer genes, we established a semiautomated denaturing gradient gel electrophoresis (DGGE) mutation scanning system. All exons of both genes are covered by the DGGE scan, comprising 120 amplicons. We use a semiautomated approach, amplifying all individual amplicons with the same PCR program, after which the amplicons are pooled. DGGE is performed using three slightly different gel conditions. Validation was performed using DNA samples with known sequence variants in 107 of the 120 amplicons; all variants were detected. This DGGE mutation scanning, in combination with a PCR test for two Dutch founder deletions in BRCA1 was then applied in 431 families in which 52 deleterious changes and 70 unclassified variants were found. Fifteen unclassified variants were not reported before. The system was easily adopted by five other laboratories, where in another 3,593 families both exons 11 were analyzed by the protein truncation test (PTT) and the remaining exons by DGGE. In total, a deleterious change (nonsense, frameshift, splice-site mutation, or large deletion) was found in 661 families (16.4%), 462 in BRCA1 (11.5%), 197 in BRCA2 (4.9%), and in two index cases a deleterious change in both BRCA1 and BRCA2 was identified. Eleven deleterious changes in BRCA1 and 36 in BRCA2 had not been reported before. In conclusion, this DGGE mutation screening method for BRCA1 and BRCA2 is proven to be highly sensitive and is easy to adopt, which makes screening of large numbers of patients feasible. The results of screening of BRCA1 and BRCA2 in more than 4,000 families present a valuable overview of mutations in the Dutch population.",
+          "authors": [
+            "van der Hout Annemarie H",
+            "van den Ouweland Ans M W",
+            "van der Luijt Rob B",
+            "Gille Hans J P",
+            "Bodmer Dani\u00eblle",
+            "Br\u00fcggenwirth Hennie",
+            "Mulder Inge M",
+            "van der Vlies Pieter",
+            "Elfferich Peter",
+            "Huisman Maarten T",
+            "ten Berge Annelies M",
+            "Kromosoeto Joan",
+            "Jansen Rumo P M",
+            "van Zon Patrick H A",
+            "Vriesman Thyrsa",
+            "Arts Neeltje",
+            "Lange Majella Boutmy-de",
+            "Oosterwijk Jan C",
+            "Meijers-Heijboer Hanne",
+            "Ausems Margreet G E M",
+            "Hoogerbrugge Nicoline",
+            "Verhoef Senno",
+            "Halley Dicky J J",
+            "Vos Yvonne J",
+            "Hogervorst Frans",
+            "Ligtenberg Marjolijn",
+            "Hofstra Robert M W"
+          ],
+          "pub_date": "2006 Jul",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/16683254/"
+        }
+      ],
+      "summary": "13-32333270-A-G (GRCh38). ClinVar snapshot classification: Benign; review: reviewed by expert panel; condition: Hereditary cancer-predisposing syndrome|Breast and/or ovarian cancer|Breast neoplasm|not specified|not provided|Hereditary breast ovarian cancer syndrome|Fanconi anemia complementation group D1|Breast-ovarian cancer, familial, susceptibility to, 2|Familial cancer of breast. gnomAD: found. Population rarity alone does not establish pathogenicity. The experimental model conflicts with ClinVar; do not use its prediction as clinical evidence. No patient phenotype, inheritance, zygosity, or validated treatment evidence assessed. No therapy recommendation."
+    }
+  ]
+}

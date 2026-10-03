@@ -24,3 +24,9 @@ data/*-shm
 eval/results/
 
 data/cache/
+
+# Downloaded ClinVar index and full source files
+*.vcf.gz
+*.vcf.gz.tbi
+clinvar_citations.tsv
+genomics/data/gnomad_cache.json

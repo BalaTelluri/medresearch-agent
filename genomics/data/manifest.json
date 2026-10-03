@@ -1,0 +1,17 @@
+{
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20260928.vcf.gz",
+  "snapshot": "2026-09-28",
+  "assembly": "GRCh38",
+  "seed": 42,
+  "scanned_vcf_records": 4555206,
+  "eligible_by_class": {
+    "0": 340062,
+    "1": 100840
+  },
+  "sample_by_class": {
+    "0": 20000,
+    "1": 20000
+  },
+  "sha256_sample": "4956d951be30642b3bf846b764c6e1a1bdf2f181b45d7409e05f188377bcd8b7",
+  "selection": "Whole-file per-class reservoir sample; no uncertain/conflicting labels; >=2-star germline review; sequence alleles, one gene, known consequence"
+}

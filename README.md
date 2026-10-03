@@ -1,3 +1,13 @@
+> **New front end:** run `python -m serve.api` and open http://localhost:8000. The home page has one card per tool (MedResearch Chat, Genomics, Pharmacovigilance); click a card to open that tool, and use the top bar to switch. Direct pages: `/chat`, `/genomics`, `/pharmacovigilance`. Setup and run commands are unchanged.
+
+# Latest package: drug safety evidence extension
+
+Start with [PV_README.md](PV_README.md) for installation, the new workflow and its limits. This ZIP includes the previous genomics module and MedResearch app. Previous documentation follows for background.
+
+# New: genomics evidence + classifier
+
+See [GENOMICS_README.md](GENOMICS_README.md) for the combined VCF/ClinVar/gnomAD/PubMed module, measured held-out-gene test sample, and simple startup. Run `bash setup_genomics.sh` for this lightweight install.
+
 # Medical Research Agent
 
 > **Research prototype, not medical advice.** Do not submit personal health information. Verify every citation and claim. A public deployment is a demo, not a pharmacovigilance system.

@@ -82,3 +82,21 @@ TOOLS: dict[str, tuple[Callable[..., Any], str]] = {
         "Answer questions with SQL over a bounded snapshot of actual openFDA FAERS reports (synthetic demo fallback; counts not incidence)",
     ),
 }
+
+
+def interpret_genomic_variants(variants: str, assembly: str = "GRCh38") -> dict:
+    """Research-only exact VCF allele lookup; never recommend therapy."""
+    from genomics.core import interpret
+    return interpret(variants, assembly, literature=True)
+
+TOOLS["interpret_genomic_variants"] = (interpret_genomic_variants,
+    "Interpret explicit GRCh38 CHROM-POS-REF-ALT variants using ClinVar, gnomAD, PubMed and an experimental classifier. Research only. No patient data or therapy recommendations.")
+
+
+def pharmacovigilance_report(drug_name: str) -> dict:
+    """Reproducible non-clinical FAERS + label + PubMed evidence report."""
+    from pharmacovigilance.core import build_report
+    return build_report(drug_name)
+
+TOOLS["pharmacovigilance_report"] = (pharmacovigilance_report,
+    "Explore drug safety reporting: exact snapshot drug name ONLY as query. FAERS counts + label lexical checks + PubMed; not causality, incidence, or clinical advice.")

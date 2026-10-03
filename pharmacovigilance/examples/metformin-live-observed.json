@@ -1,0 +1,283 @@
+{
+  "drug": "metformin",
+  "report_count": 3000,
+  "reaction_rows": 11502,
+  "corpus_report_count": 14914,
+  "corpus_reaction_rows": 69066,
+  "top_reactions": [
+    {
+      "reaction": "NAUSEA",
+      "report_count": 199,
+      "label_check": {
+        "status": "mentioned_in_retrieved_safety_sections",
+        "matches": [
+          {
+            "set_id": "05999192-ebc6-4198-bd1e-f46abbfb4f8a",
+            "section": "adverse_reactions",
+            "excerpt": "ochloride extended-release tablets, the most common adverse reactions (>5%) are diarrhea, nausea/vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache. ( 6.1 ) To report SUSPECTED ADVERSE RE",
+            "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22metformin%22+OR+openfda.brand_name%3A%22metformin%22&limit=5&sort=effective_time%3Adesc",
+            "effective_time": "20260909"
+          }
+        ],
+        "note": "Not a clinical labeled/unlabeled decision. Synonyms, subtypes and other labels may change the result."
+      },
+      "literature": {
+        "status": "retrieved",
+        "query": "\"metformin\" AND \"nausea\"",
+        "papers": [
+          {
+            "pmid": "27987248",
+            "title": "Understanding and overcoming metformin gastrointestinal intolerance.",
+            "abstract": "Metformin is the most widely prescribed drug for patients with type 2 diabetes mellitus and the first-line pharmacological option as supported by multiple international guidelines, yet a rather large proportion of patients cannot tolerate metformin in adequate amounts because of its associated gastrointestinal (GI) adverse events (AEs). GI AEs typically encountered with metformin therapy include diarrhoea, nausea, flatulence, indigestion, vomiting and abdominal discomfort, with diarrhoea and nausea being the most common. Although starting at a low dose and titrating slowly may help prevent some GI AEs associated with metformin, some patients are unable to tolerate metformin at all and it may also be difficult to convince patients to start metformin again after a bout of GI AEs. Despite this clinical importance, the underlying mechanisms of the GI intolerance associated with metformin are poorly known. In the present review, we discuss: the epidemiology of metformin-associated GI intolerance and its underlying mechanisms; genotype variability and associated factors affecting metformin GI intolerance, such as comorbidities, co-medications and bariatric surgery; clinical consequences and therapeutic strategies to overcome metformin GI intolerance. These strategies include appropriate titration of immediate-release metformin, use of extended-release metformin, the promise of delayed-release metformin and gut microbiome modulators, as well as alternative pharmacological therapies when metformin cannot be tolerated at all. Given the available data, all efforts should be made to maintain metformin before considering a shift to another drug therapy.",
+            "authors": [
+              "Bonnet Fabrice",
+              "Scheen Andr\u00e9"
+            ],
+            "pub_date": "2017 Apr",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/27987248/"
+          },
+          {
+            "pmid": "34170647",
+            "title": "Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes.",
+            "abstract": "Tirzepatide is a dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 (GLP-1) receptor agonist that is under development for the treatment of type 2 diabetes. The efficacy and safety of once-weekly tirzepatide as compared with semaglutide, a selective GLP-1 receptor agonist, are unknown. In an open-label, 40-week, phase 3 trial, we randomly assigned 1879 patients, in a 1:1:1:1 ratio, to receive tirzepatide at a dose of 5 mg, 10 mg, or 15 mg or semaglutide at a dose of 1 mg. At baseline, the mean glycated hemoglobin level was 8.28%, the mean age 56.6 years, and the mean weight 93.7 kg. The primary end point was the change in the glycated hemoglobin level from baseline to 40 weeks. The estimated mean change from baseline in the glycated hemoglobin level was -2.01 percentage points, -2.24 percentage points, and -2.30 percentage points with 5 mg, 10 mg, and 15 mg of tirzepatide, respectively, and -1.86 percentage points with semaglutide; the estimated differences between the 5-mg, 10-mg, and 15-mg tirzepatide groups and the semaglutide group were -0.15 percentage points (95% confidence interval [CI], -0.28 to -0.03; P\u2009=\u20090.02), -0.39 percentage points (95% CI, -0.51 to -0.26; P<0.001), and -0.45 percentage points (95% CI, -0.57 to -0.32; P<0.001), respectively. Tirzepatide at all doses was noninferior and superior to semaglutide. Reductions in body weight were greater with tirzepatide than with semaglutide (least-squares mean estimated treatment difference, -1.9 kg, -3.6 kg, and -5.5 kg, respectively; P<0.001 for all comparisons). The most common adverse events were gastrointestinal and were primarily mild to moderate in severity in the tirzepatide and semaglutide groups (nausea, 17 to 22% and 18%; diarrhea, 13 to 16% and 12%; and vomiting, 6 to 10% and 8%, respectively). Of the patients who received tirzepatide, hypoglycemia (blood glucose level, <54 mg per deciliter) was reported in 0.6% (5-mg group), 0.2% (10-mg group), and 1.7% (15-mg group); hypoglycemia was reported in 0.4% of those who received semaglutide. Serious adverse events were reported in 5 to 7% of the patients who received tirzepatide and in 3% of those who received semaglutide. In patients with type 2 diabetes, tirzepatide was noninferior and superior to semaglutide with respect to the mean change in the glycated hemoglobin level from baseline to 40 weeks. (Funded by Eli Lilly; SURPASS-2 ClinicalTrials.gov number, NCT03987919.).",
+            "authors": [
+              "Fr\u00edas Juan P",
+              "Davies Melanie J",
+              "Rosenstock Julio",
+              "P\u00e9rez Manghi Federico C",
+              "Fern\u00e1ndez Land\u00f3 Laura",
+              "Bergman Brandon K",
+              "Liu Bing",
+              "Cui Xuewei",
+              "Brown Katelyn"
+            ],
+            "pub_date": "2021 Aug 05",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/34170647/"
+          }
+        ]
+      }
+    },
+    {
+      "reaction": "DIARRHOEA",
+      "report_count": 179,
+      "label_check": {
+        "status": "mentioned_in_retrieved_safety_sections",
+        "matches": [
+          {
+            "set_id": "05999192-ebc6-4198-bd1e-f46abbfb4f8a",
+            "section": "adverse_reactions",
+            "excerpt": "ormin hydrochloride extended-release tablets, the most common adverse reactions (>5%) are diarrhea, nausea/vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache. ( 6.1 ) To report SUSPECTED AD",
+            "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22metformin%22+OR+openfda.brand_name%3A%22metformin%22&limit=5&sort=effective_time%3Adesc",
+            "effective_time": "20260909"
+          }
+        ],
+        "note": "Not a clinical labeled/unlabeled decision. Synonyms, subtypes and other labels may change the result."
+      },
+      "literature": {
+        "status": "retrieved",
+        "query": "\"metformin\" AND \"diarrhoea\"",
+        "papers": [
+          {
+            "pmid": "27987248",
+            "title": "Understanding and overcoming metformin gastrointestinal intolerance.",
+            "abstract": "Metformin is the most widely prescribed drug for patients with type 2 diabetes mellitus and the first-line pharmacological option as supported by multiple international guidelines, yet a rather large proportion of patients cannot tolerate metformin in adequate amounts because of its associated gastrointestinal (GI) adverse events (AEs). GI AEs typically encountered with metformin therapy include diarrhoea, nausea, flatulence, indigestion, vomiting and abdominal discomfort, with diarrhoea and nausea being the most common. Although starting at a low dose and titrating slowly may help prevent some GI AEs associated with metformin, some patients are unable to tolerate metformin at all and it may also be difficult to convince patients to start metformin again after a bout of GI AEs. Despite this clinical importance, the underlying mechanisms of the GI intolerance associated with metformin are poorly known. In the present review, we discuss: the epidemiology of metformin-associated GI intolerance and its underlying mechanisms; genotype variability and associated factors affecting metformin GI intolerance, such as comorbidities, co-medications and bariatric surgery; clinical consequences and therapeutic strategies to overcome metformin GI intolerance. These strategies include appropriate titration of immediate-release metformin, use of extended-release metformin, the promise of delayed-release metformin and gut microbiome modulators, as well as alternative pharmacological therapies when metformin cannot be tolerated at all. Given the available data, all efforts should be made to maintain metformin before considering a shift to another drug therapy.",
+            "authors": [
+              "Bonnet Fabrice",
+              "Scheen Andr\u00e9"
+            ],
+            "pub_date": "2017 Apr",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/27987248/"
+          },
+          {
+            "pmid": "34244196",
+            "title": "Metformin-associated lactic acidosis.",
+            "abstract": "A 58-year-old female with known type 2 diabetes mellitus continued to take her usual medications, including metformin, an ACE inhibitor and a non-steroidal anti-inflammatory drug, while suffering from diarrhoea and vomiting. On presentation to the emergency department, she was found to have a profound lactic acidosis, cardiovascular instability and acute kidney injury. Despite a pH of 6.6, lactate of 14\u2009mmol/L and a brief asystolic cardiac arrest, supportive treatment and the use of renal replacement therapy resulted in rapid improvement in her acid-base abnormalities and haemodynamic parameters. Metformin-associated lactic acidosis is a rare but life-threatening complication of diabetes management. Patient education and awareness amongst clinicians are paramount in the prevention and treatment of this condition.",
+            "authors": [
+              "Fadden Emma Jane",
+              "Longley Christian",
+              "Mahambrey Tushar"
+            ],
+            "pub_date": "2021 Jul 08",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/34244196/"
+          }
+        ]
+      }
+    },
+    {
+      "reaction": "BLOOD GLUCOSE INCREASED",
+      "report_count": 175,
+      "label_check": {
+        "status": "not_found_by_lexical_check",
+        "matches": [],
+        "note": "Not a clinical labeled/unlabeled decision. Synonyms, subtypes and other labels may change the result."
+      },
+      "literature": {
+        "status": "retrieved",
+        "query": "\"metformin\" AND \"blood glucose increased\"",
+        "papers": [
+          {
+            "pmid": "31029144",
+            "title": "Metformin in patients with and without diabetes: a paradigm shift in cardiovascular disease management.",
+            "abstract": "With an increasing global burden of coronary artery disease (CAD), early detection and timely management of risk factors are crucial to reduce morbidity and mortality in such patients. Diabetes mellitus (DM) is considered an independent risk factor for the development of CAD. Metformin, an anti-diabetic drug, has been shown in pre-clinical and clinical studies, to lower the cardiovascular events in the DM patients. Growing evidence suggests that metformin has a protective effect on coronary artery beyond its hypoglycemic effects. Given its global availability, route of administration and cost, metformin provides an alternate/additional therapeutic option for primary and secondary prevention of CAD in DM and non-diabetics alike. Future prospective cohort-based studies and randomized clinical trials are needed to identify 'at-risk' population who may potentially benefit from metformin.",
+            "authors": [
+              "Luo Fei",
+              "Das Avash",
+              "Chen Jingfei",
+              "Wu Panyun",
+              "Li Xiangping",
+              "Fang Zhenfei"
+            ],
+            "pub_date": "2019 Apr 27",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/31029144/"
+          },
+          {
+            "pmid": "31296866",
+            "title": "Gestational diabetes mellitus.",
+            "abstract": "Hyperglycaemia that develops during pregnancy and resolves after birth has been recognized for over 50 years, but uniform worldwide consensus is lacking about threshold hyperglycaemic levels that merit a diagnosis of 'gestational diabetes mellitus' (GDM) and thus treatment during pregnancy. GDM is currently the most common medical complication of pregnancy, and prevalence of undiagnosed hyperglycaemia and even overt diabetes in young women is increasing. Maternal overweight and obesity, later age at childbearing, previous history\u00a0of GDM, family history of type 2 diabetes mellitus and ethnicity are major GDM risk factors. Diagnosis is usually performed using an oral glucose tolerance test (OGTT), although a non-fasting, glucose challenge test (GCT) is used in some parts of the world to screen women for those requiring a full OGTT. Dietary modification and increased physical activity are the primary treatments for GDM, but pharmacotherapy, usually insulin, is used when normoglycaemia is not achieved. Oral hypoglycaemic agents, principally metformin and glibenclamide (glyburide), are also used in some countries. Treatment improves immediate pregnancy outcomes, reducing excess fetal growth and adiposity and pregnancy-related hypertensive disorders. GDM increases the risk of long-term complications, including obesity, impaired glucose metabolism and cardiovascular disease, in both the mother and infant. Optimal management of mother and infant during long-term follow-up remains challenging, with very limited implementation of preventive strategies in most parts of the world.",
+            "authors": [
+              "McIntyre H David",
+              "Catalano Patrick",
+              "Zhang Cuilin",
+              "Desoye Gernot",
+              "Mathiesen Elisabeth R",
+              "Damm Peter"
+            ],
+            "pub_date": "2019 Jul 11",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/31296866/"
+          }
+        ]
+      }
+    },
+    {
+      "reaction": "DRUG INEFFECTIVE",
+      "report_count": 168,
+      "label_check": {
+        "status": "not_found_by_lexical_check",
+        "matches": [],
+        "note": "Not a clinical labeled/unlabeled decision. Synonyms, subtypes and other labels may change the result."
+      },
+      "literature": {
+        "status": "not_requested",
+        "papers": []
+      }
+    },
+    {
+      "reaction": "WEIGHT DECREASED",
+      "report_count": 153,
+      "label_check": {
+        "status": "not_found_by_lexical_check",
+        "matches": [],
+        "note": "Not a clinical labeled/unlabeled decision. Synonyms, subtypes and other labels may change the result."
+      },
+      "literature": {
+        "status": "not_requested",
+        "papers": []
+      }
+    }
+  ],
+  "monthly_counts": [
+    {
+      "month": "2013-10",
+      "report_count": 1
+    },
+    {
+      "month": "2013-12",
+      "report_count": 2
+    },
+    {
+      "month": "2014-01",
+      "report_count": 6
+    },
+    {
+      "month": "2014-02",
+      "report_count": 3
+    },
+    {
+      "month": "2014-03",
+      "report_count": 818
+    },
+    {
+      "month": "2014-04",
+      "report_count": 1252
+    },
+    {
+      "month": "2014-05",
+      "report_count": 918
+    }
+  ],
+  "missing_date_reports": 0,
+  "available_drugs": [
+    "empagliflozin",
+    "liraglutide",
+    "metformin",
+    "retatrutide",
+    "semaglutide",
+    "tirzepatide"
+  ],
+  "provenance": {
+    "drug_name": "metformin",
+    "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22metformin%22",
+    "retrieved_at_utc": "2026-09-28T09:45:21+00:00",
+    "source_last_updated": "2026-07-30",
+    "api_matching_reports": 432899,
+    "sampled_reports": 3000,
+    "reaction_rows": 11502,
+    "max_reports_requested": 3000,
+    "selection": "openFDA search_after API order; first N matched safety reports, not a random sample or exhaustive dataset"
+  },
+  "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22metformin%22",
+  "co_reported_drugs": {
+    "status": "unavailable",
+    "reason": "The original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis."
+  },
+  "disproportionality": {
+    "status": "not_computed",
+    "reason": "No PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator."
+  },
+  "generated_at_utc": "2026-10-02T11:01:47.947310+00:00",
+  "label_evidence": {
+    "status": "retrieved",
+    "labels": [
+      {
+        "set_id": "05999192-ebc6-4198-bd1e-f46abbfb4f8a",
+        "effective_time": "20260909",
+        "brand_names": [
+          "Metformin"
+        ],
+        "generic_names": [
+          "METFORMIN ER 500 MG"
+        ],
+        "sections": {
+          "boxed_warning": "WARNING: LACTIC ACIDOSIS Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias. The onset of metformin\u00ad-associated lactic acidosis is often subtle, accompanied only by nonspecific symptoms such as malaise, myalgias, respiratory distress, somnolence, and abdominal pain. Metformin\u00ad-associated lactic acidosis was characterized by elevated blood lactate levels (>5 mmol/Liter), anion gap acidosis (without evidence of ketonuria or ketonemia), an increased lactate/pyruvate ratio; and metformin plasma levels generally >5 mcg/mL [see Warnings and Precautions (5.1) ]. Risk factors for metformin-associated lactic acidosis include renal impairment, concomitant use of certain drugs (e.g. carbonic anhydrase inhibitors such as topiramate), age 65 years old or greater, having a radiological study with contrast, surgery and other procedures, hypoxic states (e.g., acute congestive heart failure), excessive alcohol intake, and hepatic impairment. Steps to reduce the risk of and manage metformin-associated lactic acidosis in these high risk groups are provided [see Dosage and Administration (2) , Contraindications (4) , Warnings and Precautions (5.1) ]. If metformin-associated lactic acidosis is suspected, immediately discontinue metformin hydrochloride extended-release tablets and institute general supportive measures in a hospital setting. Prompt hemodialysis is recommended [see Warnings and Precautions (5.1) ]. WARNING: LACTIC ACIDOSIS See full prescribing information for complete boxed warning. \u2022 Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias. Symptoms included malaise, myalgias, respiratory distress, somnolence, and abdominal pain. Laboratory abnormalities included elevated blood lactate levels, anion gap acidosis, increased lactate/pyruvate ratio; and metformin plasma levels generally >5 mcg/mL. ( 5.1 ) \u2022 Risk factors include renal impairment, concomitant use of certain drugs, age >65 years old, radiological studies with contrast, surgery and other procedures, hypoxic states, excessive alcohol intake, and hepatic impairment. Steps to reduce the risk of and manage metformin\u00ad-associated lactic acidosis in these high risk groups are provided in the Full Prescribing Information. ( 5.1 ) \u2022 If lactic acidosis is suspected, discontinue metformin hydrochloride extended-release tablets and institute general supportive measures in a hospital setting. Prompt hemodialysis is recommended. ( 5.1 )",
+          "warnings_and_cautions": "5 WARNINGS AND PRECAUTIONS N/A \u2022 Lactic Acidosis: See boxed warning. ( 5.1 ) \u2022 Vitamin B 12 Deficiency : Metformin may lower vitamin B 12 levels. Measure hematological parameters annually and vitamin B 12 at 2 to 3 year intervals and manage any abnormalities. ( 5.2 ) \u2022 Hypoglycemia with Concomitant Use with Insulin and Insulin Secretagogues: Increased risk of hypoglycemia when used in combination with insulin and/or an insulin secretagogue. Lower dose of insulin or insulin secretagogue may be required ( 5.3 ) 5.1 Lactic Acidosis There have been postmarketing cases of metformin-associated lactic acidosis, including fatal cases. These cases had a subtle onset and were accompanied by nonspecific symptoms such as malaise, myalgias, abdominal pain, respiratory distress, or increased somnolence; however, hypotension and resistant bradyarrhythmias have occurred with severe acidosis. Metformin-associated lactic acidosis was characterized by elevated blood lactate concentrations (>5 mmol/L), anion gap acidosis (without evidence of ketonuria or ketonemia), and an increased lactate: pyruvate ratio; metformin plasma levels were generally >5 mcg/mL. Metformin decreases liver uptake of lactate increasing lactate blood levels which may increase the risk of lactic acidosis, especially in patients at risk. If metformin-associated lactic acidosis is suspected, general supportive measures should be instituted promptly in a hospital setting, along with immediate discontinuation of metformin hydrochloride extended-release tablets. In metformin hydrochloride extended-release tablets treated patients with a diagnosis or strong suspicion of lactic acidosis, prompt hemodialysis is recommended to correct the acidosis and remove accumulated metformin (metformin hydrochloride is dialyzable with a clearance of up to 170 mL/min under good hemodynamic conditions). Hemodialysis has often resulted in reversal of symptoms and recovery. Educate patients and their families about the symptoms of lactic acidosis and, if these symptoms occur, instruct them to discontinue metformin hydrochloride extended-release tablets and report these symptoms to their healthcare provider. For each of the known and possible risk factors for metformin-associated lactic acidosis, recommendations to reduce the risk of and manage metformin-associated lactic acidosis are provided below: \u2022 Renal impairment \u2014 The postmarketing metformin-associated lactic acidosis cases primarily occurred in patients with significant renal impairment. The risk of metformin accumulation and metformin-associated lactic acidosis increases with the severity of renal impairment because metformin is substantially excreted by the kidney. Clinical recommendations based upon the patient\u2019s renal function include [see Dosage and Administration (2.2) , Clinical Pharmacology (12.3) ]: o Before initiating metformin hydrochloride extended-release tablets, obtain an estimated glomerular filtration rate (eGFR). o Metformin hydrochloride extended-release tablets are contraindicated in patients with an eGFR less than 30 mL/min/1.73 m 2 [see Contraindications (4) ]. o Initiation of metformin hydrochloride extended-release tablets are not recommended in patients with eGFR between 30 to 45 mL/min/1.73 m 2 . o Obtain an eGFR at least annually in all patients taking metformin hydrochloride extended-release tablets. In patients at risk for the development of renal impairment (e.g., the elderly), renal function should be assessed more frequently. o In patients taking metformin hydrochloride extended-release tablets whose eGFR falls below 45 mL/min/1.73 m 2 , assess the benefit and risk of continuing therapy. \u2022 Drug interactions \u2014 The concomitant use of metformin hydrochloride extended-release tablets with specific drugs may increase the risk of metformin-associated lactic acidosis: those that impair renal function, result in significant hemodynamic change, interfere with acid-base balance, or increase metformin accumulation. Consider more frequent monitoring of patients. \u2022 Age 65 or greater \u2014 The risk of metformin-associated lactic acidosis increases with the patient\u2019s age because elderly patients have a greater likelihood of having hepatic, renal, or cardiac impairment than younger patients. Assess renal function more frequently in elderly patients. \u2022 Radiologic studies with contrast \u2014 Administration of intravascular iodinated contrast agents in metformin-treated patients has led to an acute decrease in renal function and the occurrence of lactic acidosis. Stop metformin hydrochloride extended-release tablets at the time of, or prior to, an iodinated contrast imaging procedure in patients with an eGFR between 30 and 60 mL/min/1.73 m 2 ; in patients with a history of hepatic impairment, alcoholism or heart failure; or in patients who will be administered intra-arterial iodinated contrast. Re-evaluate eGFR 48 hours after the imaging procedure, and restart metformin hydrochloride extended-release tablets if renal function is stable. \u2022 Surgery and other procedures \u2014 Withholding of food and fluids during surgical or other procedures may increase the risk for volume depletion, hypotension, and renal impairment. Metformin hydrochloride extended-release tablets should be temporarily discontinued while patients have restricted food and fluid intake. \u2022 Hypoxic states \u2014 Several of the postmarketing cases of metformin-associated lactic acidosis occurred in the setting of acute congestive heart failure (particularly when accompanied by hypoperfusion and hypoxemia). Cardiovascular collapse (shock), acute myocardial infarction, sepsis, and other conditions associated with hypoxemia have been associated with lactic acidosis and may cause prerenal azotemia. When such an event occurs, discontinue metformin hydrochloride extended-release tablets. \u2022 Excessive alcohol intake \u2014 Alcohol potentiates the effect of metformin on lactate metabolism. Patients should be warned against excessive alcohol intake while receiving metformin hydrochloride extended-release tablets. \u2022 Hepatic impairment \u2014 Patients with hepatic impairment have developed cases of metformin-associated lactic acidosis. This may be due to impaired lactate clearance resulting in higher lactate blood levels. Therefore, avoid use of metformin hydrochloride extended-released tablets in patients with clinical or laboratory evidence of hepatic disease. 5.2 Vitamin B 12 Deficiency In metformin hydrochloride tablets clinical trials of 29-week duration, a decrease to subnormal levels of previously normal serum vitamin B 12 levels was observed in approximately 7% of patients. Such decrease, possibly due to interference with B 12 absorption from the B 12 -intrinsic factor complex, may be associated with anemia but appears to be rapidly reversible with discontinuation of metformin hydrochloride tablets or vitamin B 12 supplementation. Certain individuals (those with inadequate vitamin B 12 or calcium intake or absorption) appear to be predisposed to developing subnormal vitamin B 12 levels. Measure hematologic parameters on an annual basis and vitamin B 12 at 2 to 3 year intervals in patients on metformin hydrochloride extended-release tablets and manage any abnormalities [see Adverse Reactions (6.1) ]. 5.3 Hypoglycemia with Concomitant Use with Insulin and Insulin Secretagogues Insulin and insulin secretagogues (e.g., sulfonylurea) are known to cause hypoglycemia. Metformin hydrochloride extended-release tablets may increase the risk of hypoglycemia when combined with insulin and/or an insulin secretagogue. Therefore, a lower dose of insulin or insulin secretagogue may be required to minimize the risk of hypoglycemia when used in combination with metformin hydrochloride extended-release tablets [see Drug Interactions (7) ]. 5.4 Macrovascular Outcomes There have been no clinical studies establishing conclusive evidence of macrovascular risk reduction with metformin hydrochloride extended-release tablets.",
+          "adverse_reactions": "6 ADVERSE REACTIONS The following adverse reactions are also discussed elsewhere in the labeling: \u2022 Lactic Acidosis [see Boxed Warning and Warnings and Precautions (5.1) ] \u2022 Vitamin B 12 Deficiency [see Warnings and Precautions (5.2) ] \u2022 Hypoglycemia [see Warnings and Precautions (5.3) ] For metformin hydrochloride extended-release tablets, the most common adverse reactions (>5%) are diarrhea, nausea/vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Granules Pharmaceuticals Inc. at 1-877-770-3183 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch 6.1 Clinical Studies Experience Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. Metformin Hydrochloride Extended-Release Tablets In placebo-controlled trials, in adults with type 2 diabetes mellitus, 781 patients were administered metformin hydrochloride extended-release tablets. Adverse reactions reported in greater than 5% of the metformin hydrochloride extended-release tablets patients, and that were more common in metformin hydrochloride extended-release tablets - than placebo-treated patients, are listed in Table 1. Table 1: Adverse Reactions from Clinical Trials of Metformin Hydrochloride Extended-Release Tablets Occurring >5% and More Common than Placebo in Adults with Type 2 Diabetes Mellitus Metformin Hydrochloride Extended-Release Tablets (n=781) Placebo (n=195) Diarrhea 10% 3% Nausea/Vomiting 7% 2% Diarrhea led to discontinuation of metformin hydrochloride extended-release tablets in 0.6% of patients. Additionally, the following adverse reactions were reported in \u22651% to \u22645% of metformin hydrochloride extended-release tablets patients and were more commonly reported with metformin hydrochloride extended-release tablets than placebo: abdominal pain, constipation, distention abdomen, dyspepsia/heartburn, flatulence, dizziness, headache, upper respiratory infection, taste disturbance. 6.2 Postmarketing Experience The following adverse reactions have been identified during post approval use of metformin. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Cholestatic, hepatocellular, and mixed hepatocellular liver injury have been reported with postmarketing use of metformin.",
+          "contraindications": "4 CONTRAINDICATIONS Metformin hydrochloride extended-release tablets are contraindicated in patients with: \u2022 Severe renal impairment (eGFR below 30 mL/min/1.73 m 2 ) [see Warnings and Precautions (5.1) ]. \u2022 Hypersensitivity to metformin. \u2022 Acute or chronic metabolic acidosis, including diabetic ketoacidosis, with or without coma. \u2022 Severe renal impairment (eGFR below 30 mL/min/1.73 m 2 ) ( 4 , 5.1 ) \u2022 Hypersensitivity to metformin ( 4 ) \u2022 Acute or chronic metabolic acidosis, including diabetic ketoacidosis, with or without coma. ( 4 )"
+        },
+        "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22metformin%22+OR+openfda.brand_name%3A%22metformin%22&limit=5&sort=effective_time%3Adesc"
+      }
+    ],
+    "total_api_matches": 371,
+    "scope": "Up to 5 newest returned labels, exact drug-name filter; not all formulations or historical labels.",
+    "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22metformin%22+OR+openfda.brand_name%3A%22metformin%22&limit=5&sort=effective_time%3Adesc"
+  },
+  "gaps": [],
+  "limitations": [
+    "Exploratory research prototype. Not clinical advice, a validated safety signal, or a regulatory submission.",
+    "Counts describe reports in a bounded, drug-enriched, non-random snapshot. They are not patients, incidence, risk or causality.",
+    "One report can contain several reactions and drugs. Report ID deduplication does not remove all underlying duplicate cases or reporting bias.",
+    "Dates are the stored report receipt dates, not event onset. Changes over time cannot establish changing risk.",
+    "No PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator.",
+    "The original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis.",
+    "Label matching is lexical in retrieved safety sections only. A missing match does not establish an unlabeled reaction. A match does not validate an association.",
+    "PubMed results are retrieved records, not a systematic review or evidence of causality. External text is untrusted evidence, never instructions."
+  ],
+  "trace": [
+    "Validated exact snapshot drug name",
+    "Read-only SQLite report-ID counts and receipt-month aggregation",
+    "Retrieved openFDA label safety sections; exact drug-name filter",
+    "Lexical label comparison; PubMed retrieval for up to three highest-count reactions"
+  ],
+  "confidence": "High for reproducible snapshot counts; limited for label term matching; no causal inference.",
+  "framing": "Exploratory research prototype",
+  "report_markdown": "# Drug safety evidence: metformin\nExploratory research prototype. No clinical, causality or therapy conclusions.\n\n## Snapshot findings\n3,000 distinct report IDs; 11,502 reaction rows for this drug.\nSnapshot retrieved 2026-09-28T09:45:21+00:00; upstream last updated 2026-07-30. Selection: openFDA search_after API order; first N matched safety reports, not a random sample or exhaustive dataset.\nSource: https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22metformin%22\n\n## Label-mentioned reactions (lexical evidence only)\n\n### NAUSEA: 199 report IDs\nLabel check: mentioned_in_retrieved_safety_sections.\nLabel set 05999192-ebc6-4198-bd1e-f46abbfb4f8a, effective 20260909, adverse_reactions: \"ochloride extended-release tablets, the most common adverse reactions (>5%) are diarrhea, nausea/vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache. ( 6.1 ) To report SUSPECTED ADVERSE RE\"\nSource: https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22metformin%22+OR+openfda.brand_name%3A%22metformin%22&limit=5&sort=effective_time%3Adesc\nPubMed: retrieved. Retrieved records only, not a verified causal assessment.\n- Understanding and overcoming metformin gastrointestinal intolerance. (2017 Apr) https://pubmed.ncbi.nlm.nih.gov/27987248/\n- Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. (2021 Aug 05) https://pubmed.ncbi.nlm.nih.gov/34170647/\n\n### DIARRHOEA: 179 report IDs\nLabel check: mentioned_in_retrieved_safety_sections.\nLabel set 05999192-ebc6-4198-bd1e-f46abbfb4f8a, effective 20260909, adverse_reactions: \"ormin hydrochloride extended-release tablets, the most common adverse reactions (>5%) are diarrhea, nausea/vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache. ( 6.1 ) To report SUSPECTED AD\"\nSource: https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22metformin%22+OR+openfda.brand_name%3A%22metformin%22&limit=5&sort=effective_time%3Adesc\nPubMed: retrieved. Retrieved records only, not a verified causal assessment.\n- Understanding and overcoming metformin gastrointestinal intolerance. (2017 Apr) https://pubmed.ncbi.nlm.nih.gov/27987248/\n- Metformin-associated lactic acidosis. (2021 Jul 08) https://pubmed.ncbi.nlm.nih.gov/34244196/\n\n## Not lexically matched / label evidence unavailable (NOT confirmed unlabeled)\n\n### BLOOD GLUCOSE INCREASED: 175 report IDs\nLabel check: not_found_by_lexical_check.\nPubMed: retrieved. Retrieved records only, not a verified causal assessment.\n- Metformin in patients with and without diabetes: a paradigm shift in cardiovascular disease management. (2019 Apr 27) https://pubmed.ncbi.nlm.nih.gov/31029144/\n- Gestational diabetes mellitus. (2019 Jul 11) https://pubmed.ncbi.nlm.nih.gov/31296866/\n\n### DRUG INEFFECTIVE: 168 report IDs\nLabel check: not_found_by_lexical_check.\nPubMed: not_requested. Retrieved records only, not a verified causal assessment.\n\n### WEIGHT DECREASED: 153 report IDs\nLabel check: not_found_by_lexical_check.\nPubMed: not_requested. Retrieved records only, not a verified causal assessment.\n\n## Receipt-date pattern\n7 receipt months represented; 0 reports with missing/invalid dates.\nNo trend significance or changing risk is inferred.\n| Receipt month | Distinct report IDs |\n| --- | ---: |\n| 2013-10 | 1 |\n| 2013-12 | 2 |\n| 2014-01 | 6 |\n| 2014-02 | 3 |\n| 2014-03 | 818 |\n| 2014-04 | 1252 |\n| 2014-05 | 918 |\n\n## Missing evidence\nThe original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis.\nNo PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator.\n\n## Limits\n- Exploratory research prototype. Not clinical advice, a validated safety signal, or a regulatory submission.\n- Counts describe reports in a bounded, drug-enriched, non-random snapshot. They are not patients, incidence, risk or causality.\n- One report can contain several reactions and drugs. Report ID deduplication does not remove all underlying duplicate cases or reporting bias.\n- Dates are the stored report receipt dates, not event onset. Changes over time cannot establish changing risk.\n- No PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator.\n- The original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis.\n- Label matching is lexical in retrieved safety sections only. A missing match does not establish an unlabeled reaction. A match does not validate an association.\n- PubMed results are retrieved records, not a systematic review or evidence of causality. External text is untrusted evidence, never instructions.\n\nConfidence: High for reproducible snapshot counts; limited for label term matching; no causal inference."
+}

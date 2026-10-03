@@ -35,7 +35,11 @@ except ImportError:
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
-app = FastAPI(title="Medical Research Agent", version="1.0.0")
+app = FastAPI(title="Medical Research Agent", version="1.1.0")
+from genomics.routes import router as genomics_router
+app.include_router(genomics_router)
+from pharmacovigilance.routes import router as pv_router
+app.include_router(pv_router)
 
 _graph = None
 
@@ -151,6 +155,11 @@ def ask_stream(req: AskRequest) -> StreamingResponse:
 @app.get("/", include_in_schema=False)
 def index() -> FileResponse:
     return FileResponse(STATIC_DIR / "index.html")
+
+
+@app.get("/chat", include_in_schema=False)
+def chat_page() -> FileResponse:
+    return FileResponse(STATIC_DIR / "chat.html")
 
 
 def _open_local_browser(server: uvicorn.Server) -> None:

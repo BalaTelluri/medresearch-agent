@@ -1,0 +1,5 @@
+-r requirements-serve.txt
+scikit-learn==1.7.2
+joblib==1.5.3
+pysam==0.23.3
+httpx==0.28.1

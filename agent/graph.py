@@ -18,6 +18,7 @@ import config  # noqa: F401  (loads .env)
 
 import json
 import sys
+import re
 from concurrent.futures import ThreadPoolExecutor
 from contextvars import ContextVar
 from typing import Callable
@@ -66,11 +67,15 @@ def _evidence_summary(tool_results: dict[str, Any]) -> str:
 def _collect_sources(tool_results: dict[str, Any]) -> list[str]:
     """Pull citation links out of tool results."""
     sources: list[str] = []
-    for result in tool_results.values():
-        items = result if isinstance(result, list) else [result]
-        for item in items:
-            if isinstance(item, dict) and item.get("link"):
-                sources.append(item["link"])
+    def walk(value):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if key in ("link", "source_url") and isinstance(item, str) and item.startswith("https://"):
+                    if item not in sources: sources.append(item)
+                else: walk(item)
+        elif isinstance(value, list):
+            for item in value: walk(item)
+    walk(tool_results)
     return sources
 
 
@@ -81,8 +86,19 @@ def planner(state: AgentState) -> dict[str, Any]:
     registry catalog. Falls back to a sensible default plan if the reply is
     not parseable - the agent should degrade, never crash, on LLM noise.
     """
+    # Explicit PV requests for loaded names have a no-key graph path. No drug guessing.
+    question = state['question'].lower()
+    if re.search(r'\b(pv|pharmacovigilance|safety signal|signal detection)\b', question):
+        from pharmacovigilance.core import snapshot
+        available = snapshot('metformin').get('available_drugs', [])
+        named = [d for d in available if re.search(r'(?<!\w)' + re.escape(d) + r'(?!\w)', question)]
+        if len(named) == 1:
+            return {'plan': [{'tool': 'pharmacovigilance_report', 'query': named[0]}],
+                    'tool_results': {}, 'contradictions': [], 'retry_count': 0, 'failed_steps': [],
+                    'trace': state.get('trace', []) + ['planner: explicit PV route (no LLM required)']}
     catalog = "\n".join(f"- {name}: {desc}" for name, (fn, desc) in registry.TOOLS.items())
     prompt = (
+        "For genomics, use interpret_genomic_variants ONLY when explicit GRCh38 CHROM-POS-REF-ALT values are supplied; the query must contain ONLY these IDs, one per line. Never infer coordinates from gene names. "
         f"Question: {state['question']}\n\n"
         f"Available tools:\n{catalog}\n\n"
         "Reply with ONLY a JSON array of steps, each an object with keys "
@@ -104,7 +120,7 @@ def planner(state: AgentState) -> dict[str, Any]:
         steps = []
 
     if not steps:  # fallback: ask everything, let the answer node sort it out
-        steps = [{"tool": name, "query": state["question"]} for name in registry.TOOLS]
+        steps = [{"tool": name, "query": state["question"]} for name in registry.TOOLS if name not in ("interpret_genomic_variants", "pharmacovigilance_report")]
 
     return {
         "plan": steps,
@@ -214,6 +230,15 @@ def retry(state: AgentState) -> dict[str, Any]:
 def answer(state: AgentState) -> dict[str, Any]:
     """Compose the final answer with inline citations and a confidence note."""
     results = state.get("tool_results", {})
+    # Preserve complete deterministic evidence and limits, not an LLM-truncated rewrite.
+    pv = next((v for k, v in results.items() if k.startswith('pharmacovigilance_report(')
+               and isinstance(v, dict) and 'report_markdown' in v), None)
+    if pv is not None:
+        text = pv['report_markdown']
+        if ANSWER_TOKEN.get():
+            ANSWER_TOKEN.get()(text)
+        return {'answer': text, 'sources': _collect_sources(results),
+                'trace': state.get('trace', []) + ['answer: complete deterministic PV evidence report']}
     contradictions = state.get("contradictions", [])
     sources = _collect_sources(results)
 

@@ -1,0 +1,1 @@
+These are observed public API responses from October 2, 2026, not cached live results used by the app. They record both successful metformin evidence and a missing-label retatrutide case. New reports always attempt the requested live sources. Counts are snapshot-only.

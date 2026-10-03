@@ -1,0 +1,291 @@
+{
+  "drug": "retatrutide",
+  "report_count": 44,
+  "reaction_rows": 172,
+  "corpus_report_count": 14914,
+  "corpus_reaction_rows": 69066,
+  "top_reactions": [
+    {
+      "reaction": "VOMITING",
+      "report_count": 8,
+      "label_check": {
+        "status": "unavailable",
+        "matches": [],
+        "note": "Label source unavailable or no exact labels found."
+      },
+      "literature": {
+        "status": "retrieved",
+        "query": "\"retatrutide\" AND \"vomiting\"",
+        "papers": [
+          {
+            "pmid": "40022548",
+            "title": "The promise of glucagon-like peptide 1 receptor agonists (GLP-1RA) for the treatment of obesity: a look at phase 2 and 3 pipelines.",
+            "abstract": "GLP-1-based therapies have changed the treatment of overweight/obesity. Liraglutide 3.0\u2009mg daily, the first GLP-1 RA approved for treatment of overweight, induced a weight loss of 6-8%, Semaglutide 2.4\u2009mg once weekly improved weight loss to about 12-15%, while the dual GIP/GLP-1 receptor agonist tirzepatide once weekly has induced a weight loss of about 20% in obese people without diabetes. This review describes results obtained with GLP-1 mono-agonists, GLP-1/GIP dual agonists, GLP-1/glucagon co-agonists, and the triple agonist retatrutide (GIP/GLP-1/glucagon), which have shown beneficial effect both on body weight and steatotic liver disease. A combination of semaglutide (a GLP-1 agonist) and cagrilintide (a long-acting amylin analogue) for weekly administration is currently in phase III development, and so is oral semaglutide and several non-peptide small molecule GLP-1 agonists for oral administration. The adverse events with the GLP-1-based therapies are primarily gastrointestinal and include nausea, vomiting, obstipation, or diarrhea, which often can be mitigated by slow up titration. The GLP-1-based therapies will change the treatment of obesity and its comorbidities including steatotic liver disease in the future. Outstanding question is maintenance of the weight loss, possibly pharmacological treatment needs to be life-long.",
+            "authors": [
+              "Madsbad Sten",
+              "Holst Jens J"
+            ],
+            "pub_date": "2025 Mar",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/40022548/"
+          },
+          {
+            "pmid": "39761578",
+            "title": "Efficacy and Safety of Glucagon-Like Peptide-1 Receptor Agonists for Weight Loss Among Adults Without Diabetes : A Systematic Review of Randomized Controlled Trials.",
+            "abstract": "Recent randomized controlled trials (RCTs) have investigated glucagon-like peptide-1 receptor agonists (GLP-1 RAs) and dual or triple co-agonists for weight loss among adults with overweight or obesity and without diabetes. To assess the efficacy and safety of GLP-1 RAs and co-agonists for the treatment of obesity among adults without diabetes. MEDLINE, Embase, and Cochrane CENTRAL from inception to 4 October 2024. Placebo-controlled RCTs in otherwise healthy participants with overweight or obesity. The primary outcome was change in relative or absolute body weight from baseline to maximum on-treatment follow-up. Safety outcomes included death, serious adverse events (SAEs), any adverse events (AEs), and gastrointestinal AEs. A total of 26 RCTs comprising 15\u2009491 participants (72% female; mean body mass index, 30 to 41 kg/m<sup>2</sup>; mean age, 34 to 57 years) and 12 agents (3 commercially available agents [liraglutide, semaglutide, and tirzepatide] and 9 premarket agents for long-term weight management) were included. Treatment ranged from 16 to 104 weeks (median, 43 weeks). Compared with placebo, tirzepatide (15 mg once weekly) resulted in weight loss of up to 17.8% (95% CI, 16.3% to 19.3%) after 72 weeks of therapy; semaglutide (2.4 mg once weekly), up to 13.9% (CI, 11.0% to 16.7%) after 68 weeks; and liraglutide (3.0 mg once daily), up to 5.8% (CI, 3.6% to 8.0%) after 26 weeks. Retatrutide (12 mg once weekly) produced greater weight loss of up to 22.1% (CI, 19.3% to 24.9%) after 48 weeks; other novel single and combination GLP-1 agents were also efficacious to varying degrees. Although AEs were frequent (GLP-1 RA vs. placebo: 80% to 97% vs. 63% to 100%), the majority were gastrointestinal-related (47% to 84% vs. 13% to 63%, respectively), most commonly nausea, vomiting, diarrhea, and constipation. AEs requiring treatment discontinuation (0% to 26% vs. 0% to 9%, respectively) and SAEs (0% to 10% vs. 0% to 12%, respectively) were rare. No head-to-head RCTs were available. Heterogeneity prevented meta-analysis. GLP-1 RAs and co-agonists are efficacious for weight loss, with reported safety concerns predominantly gastrointestinal in nature, when used among adults with overweight or obesity and without diabetes. None. (PROSPERO: CRD42024505558).",
+            "authors": [
+              "Moiz Areesha",
+              "Filion Kristian B",
+              "Toutounchi Helia",
+              "Tsoukas Michael A",
+              "Yu Oriana H Y",
+              "Peters Tricia M",
+              "Eisenberg Mark J"
+            ],
+            "pub_date": "2025 Feb",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/39761578/"
+          }
+        ]
+      }
+    },
+    {
+      "reaction": "NAUSEA",
+      "report_count": 7,
+      "label_check": {
+        "status": "unavailable",
+        "matches": [],
+        "note": "Label source unavailable or no exact labels found."
+      },
+      "literature": {
+        "status": "retrieved",
+        "query": "\"retatrutide\" AND \"nausea\"",
+        "papers": [
+          {
+            "pmid": "39761578",
+            "title": "Efficacy and Safety of Glucagon-Like Peptide-1 Receptor Agonists for Weight Loss Among Adults Without Diabetes : A Systematic Review of Randomized Controlled Trials.",
+            "abstract": "Recent randomized controlled trials (RCTs) have investigated glucagon-like peptide-1 receptor agonists (GLP-1 RAs) and dual or triple co-agonists for weight loss among adults with overweight or obesity and without diabetes. To assess the efficacy and safety of GLP-1 RAs and co-agonists for the treatment of obesity among adults without diabetes. MEDLINE, Embase, and Cochrane CENTRAL from inception to 4 October 2024. Placebo-controlled RCTs in otherwise healthy participants with overweight or obesity. The primary outcome was change in relative or absolute body weight from baseline to maximum on-treatment follow-up. Safety outcomes included death, serious adverse events (SAEs), any adverse events (AEs), and gastrointestinal AEs. A total of 26 RCTs comprising 15\u2009491 participants (72% female; mean body mass index, 30 to 41 kg/m<sup>2</sup>; mean age, 34 to 57 years) and 12 agents (3 commercially available agents [liraglutide, semaglutide, and tirzepatide] and 9 premarket agents for long-term weight management) were included. Treatment ranged from 16 to 104 weeks (median, 43 weeks). Compared with placebo, tirzepatide (15 mg once weekly) resulted in weight loss of up to 17.8% (95% CI, 16.3% to 19.3%) after 72 weeks of therapy; semaglutide (2.4 mg once weekly), up to 13.9% (CI, 11.0% to 16.7%) after 68 weeks; and liraglutide (3.0 mg once daily), up to 5.8% (CI, 3.6% to 8.0%) after 26 weeks. Retatrutide (12 mg once weekly) produced greater weight loss of up to 22.1% (CI, 19.3% to 24.9%) after 48 weeks; other novel single and combination GLP-1 agents were also efficacious to varying degrees. Although AEs were frequent (GLP-1 RA vs. placebo: 80% to 97% vs. 63% to 100%), the majority were gastrointestinal-related (47% to 84% vs. 13% to 63%, respectively), most commonly nausea, vomiting, diarrhea, and constipation. AEs requiring treatment discontinuation (0% to 26% vs. 0% to 9%, respectively) and SAEs (0% to 10% vs. 0% to 12%, respectively) were rare. No head-to-head RCTs were available. Heterogeneity prevented meta-analysis. GLP-1 RAs and co-agonists are efficacious for weight loss, with reported safety concerns predominantly gastrointestinal in nature, when used among adults with overweight or obesity and without diabetes. None. (PROSPERO: CRD42024505558).",
+            "authors": [
+              "Moiz Areesha",
+              "Filion Kristian B",
+              "Toutounchi Helia",
+              "Tsoukas Michael A",
+              "Yu Oriana H Y",
+              "Peters Tricia M",
+              "Eisenberg Mark J"
+            ],
+            "pub_date": "2025 Feb",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/39761578/"
+          },
+          {
+            "pmid": "40022548",
+            "title": "The promise of glucagon-like peptide 1 receptor agonists (GLP-1RA) for the treatment of obesity: a look at phase 2 and 3 pipelines.",
+            "abstract": "GLP-1-based therapies have changed the treatment of overweight/obesity. Liraglutide 3.0\u2009mg daily, the first GLP-1 RA approved for treatment of overweight, induced a weight loss of 6-8%, Semaglutide 2.4\u2009mg once weekly improved weight loss to about 12-15%, while the dual GIP/GLP-1 receptor agonist tirzepatide once weekly has induced a weight loss of about 20% in obese people without diabetes. This review describes results obtained with GLP-1 mono-agonists, GLP-1/GIP dual agonists, GLP-1/glucagon co-agonists, and the triple agonist retatrutide (GIP/GLP-1/glucagon), which have shown beneficial effect both on body weight and steatotic liver disease. A combination of semaglutide (a GLP-1 agonist) and cagrilintide (a long-acting amylin analogue) for weekly administration is currently in phase III development, and so is oral semaglutide and several non-peptide small molecule GLP-1 agonists for oral administration. The adverse events with the GLP-1-based therapies are primarily gastrointestinal and include nausea, vomiting, obstipation, or diarrhea, which often can be mitigated by slow up titration. The GLP-1-based therapies will change the treatment of obesity and its comorbidities including steatotic liver disease in the future. Outstanding question is maintenance of the weight loss, possibly pharmacological treatment needs to be life-long.",
+            "authors": [
+              "Madsbad Sten",
+              "Holst Jens J"
+            ],
+            "pub_date": "2025 Mar",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/40022548/"
+          }
+        ]
+      }
+    },
+    {
+      "reaction": "FATIGUE",
+      "report_count": 4,
+      "label_check": {
+        "status": "unavailable",
+        "matches": [],
+        "note": "Label source unavailable or no exact labels found."
+      },
+      "literature": {
+        "status": "retrieved",
+        "query": "\"retatrutide\" AND \"fatigue\"",
+        "papers": [
+          {
+            "pmid": "42419792",
+            "title": "Comparative effects of drugs for adults with overweight or obesity: systematic review and network meta-analysis.",
+            "abstract": "To provide an up-to-date evidence summary about the comparative benefits and harms of drugs for adults with overweight or obesity to inform decision making for policymakers, payers, clinicians, and patients. Systematic review and network meta-analysis of 24 outcomes using frequentist random effects models and bayesian dose-response models, the GRADE (Grading of Recommendations Assessment, Development, and Evaluation) approach, and the Cochrane Risk of Bias 2 tool. Medline, Embase, and Cochrane Library, searched up to 12 November 2025. Randomised controlled trials of 12 weeks' duration or longer comparing one or more drugs with lifestyle modification, placebo, or another drug. This network meta-analysis comprised 262 trials (99 791 participants) evaluating 19 drugs with follow-up from 12 to 172 weeks. Compared with lifestyle modification alone, at one year, moderate to high certainty evidence shows substantial weight loss with tirzepatide (mean difference -14.9%, 95% confidence interval -16.0% to -13.9%), cagrilintide-semaglutide (CagriSema, -14.8%, -16.9% to -12.7%), oral semaglutide (-10.9%, -12.7% to -9.1%), orforglipron (-9.9%, -12.4% to -7.5%), subcutaneous semaglutide (-9.8%, -10.6% to -9.1%), and phentermine-topiramate (-8.1%, -9.7% to -6.5%). Emerging agents (ecnoglutide, mazdutide, retatrutide) may produce similar or greater reductions (13.1-14.6%; very low to low certainty). Moderate to high certainty evidence supports discontinuation because of adverse events to be highest with orforglipron, naltrexone-bupropion, liraglutide, phentermine-topiramate, CagriSema, and oral semaglutide (risk ratios from 1.9 to 4.2); gastrointestinal events were most increased with naltrexone-bupropion, oral semaglutide, orforglipron, and tirzepatide (risk ratios from 3.1 to 4.2). Fatigue risk increased, particularly with naltrexone-bupropion (risk ratio 8.9; absolute increase 331 per 1000 people over one year), orforglipron (3.4; 100 more per 1000), and CagriSema (3.2; 92 more per 1000). Tirzepatide reduced fat mass the most (by 25.7%) but also lean mass the most (by 8.3%). Subcutaneous semaglutide was the only drug associated with reduced all cause mortality (risk ratio 0.81, 95% confidence interval 0.72 to 0.93) and myocardial infarction (0.72, 0.61 to 0.85), with these estimates largely informed by cardiovascular outcome trials in high risk populations. Subcutaneous semaglutide (0.43, 0.21 to 0.84) and tirzepatide (0.49, 0.27 to 0.88) reduced heart failure risk. No drugs convincingly reduced kidney failure or improved quality of life (43 trials with 45 663 participants) beyond established minimally important differences (all mean differences <5 points; minimally important difference 10). Except for larger weight reductions in trials with longer duration (shown for subcutaneous semaglutide), subgroup analyses for drug dosages and key patient characteristics did not identify credible differences in relative effects of treatment. Obesity drugs produce variable weight loss at one year, with larger benefits generally accompanied by greater harms and discontinuation. Most agents do not improve quality of life meaningfully and few show cardiovascular benefits. Decisions in clinical practice should consider trade-offs between benefits and harms within the context of shared decision making. PROSPERO CRD42024507993.",
+            "authors": [
+              "Nong Kailei",
+              "Shi Qingyang",
+              "Xie Xinran",
+              "Wang Yang",
+              "Agarwal Arnav",
+              "Guyatt Gordon H",
+              "Zhang Haojie",
+              "Gao Yiyuan",
+              "Khunti Kamlesh",
+              "Le Roux Carel W",
+              "Widyahening Indah S",
+              "Fan Qinlin",
+              "Liu Tianyou",
+              "Mao Yunhe",
+              "Florez Ivan D",
+              "Du Heyue",
+              "Pan Xiaohui",
+              "Zou Xinyu",
+              "Wang Chaoyang",
+              "Sun Xiaodong",
+              "Li Jing",
+              "Hao Qiukui",
+              "Jia Qingyi",
+              "Sun Feng",
+              "Zhu Zhiming",
+              "Agoritsas Thomas",
+              "Tian Haoming",
+              "Vandvik Per Olav",
+              "Li Sheyu"
+            ],
+            "pub_date": "2026 Jul 08",
+            "link": "https://pubmed.ncbi.nlm.nih.gov/42419792/"
+          }
+        ]
+      }
+    },
+    {
+      "reaction": "HEART RATE INCREASED",
+      "report_count": 4,
+      "label_check": {
+        "status": "unavailable",
+        "matches": [],
+        "note": "Label source unavailable or no exact labels found."
+      },
+      "literature": {
+        "status": "not_requested",
+        "papers": []
+      }
+    },
+    {
+      "reaction": "ILLNESS",
+      "report_count": 4,
+      "label_check": {
+        "status": "unavailable",
+        "matches": [],
+        "note": "Label source unavailable or no exact labels found."
+      },
+      "literature": {
+        "status": "not_requested",
+        "papers": []
+      }
+    }
+  ],
+  "monthly_counts": [
+    {
+      "month": "2019-06",
+      "report_count": 1
+    },
+    {
+      "month": "2024-11",
+      "report_count": 1
+    },
+    {
+      "month": "2025-02",
+      "report_count": 1
+    },
+    {
+      "month": "2025-05",
+      "report_count": 1
+    },
+    {
+      "month": "2025-06",
+      "report_count": 1
+    },
+    {
+      "month": "2025-07",
+      "report_count": 1
+    },
+    {
+      "month": "2025-08",
+      "report_count": 4
+    },
+    {
+      "month": "2025-09",
+      "report_count": 2
+    },
+    {
+      "month": "2025-11",
+      "report_count": 3
+    },
+    {
+      "month": "2026-01",
+      "report_count": 2
+    },
+    {
+      "month": "2026-02",
+      "report_count": 6
+    },
+    {
+      "month": "2026-03",
+      "report_count": 4
+    },
+    {
+      "month": "2026-04",
+      "report_count": 8
+    },
+    {
+      "month": "2026-05",
+      "report_count": 6
+    },
+    {
+      "month": "2026-06",
+      "report_count": 3
+    }
+  ],
+  "missing_date_reports": 0,
+  "available_drugs": [
+    "empagliflozin",
+    "liraglutide",
+    "metformin",
+    "retatrutide",
+    "semaglutide",
+    "tirzepatide"
+  ],
+  "provenance": {
+    "drug_name": "retatrutide",
+    "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22retatrutide%22",
+    "retrieved_at_utc": "2026-09-28T09:45:06+00:00",
+    "source_last_updated": "2026-07-30",
+    "api_matching_reports": 44,
+    "sampled_reports": 44,
+    "reaction_rows": 172,
+    "max_reports_requested": 3000,
+    "selection": "openFDA search_after API order; first N matched safety reports, not a random sample or exhaustive dataset"
+  },
+  "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22retatrutide%22",
+  "co_reported_drugs": {
+    "status": "unavailable",
+    "reason": "The original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis."
+  },
+  "disproportionality": {
+    "status": "not_computed",
+    "reason": "No PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator."
+  },
+  "generated_at_utc": "2026-10-02T11:04:19.658956+00:00",
+  "label_evidence": {
+    "status": "no_labels_found",
+    "labels": [],
+    "source_url": "https://api.fda.gov/drug/label.json?search=openfda.generic_name%3A%22retatrutide%22+OR+openfda.brand_name%3A%22retatrutide%22&limit=5&sort=effective_time%3Adesc"
+  },
+  "gaps": [
+    "No usable label safety evidence: no_labels_found"
+  ],
+  "limitations": [
+    "Exploratory research prototype. Not clinical advice, a validated safety signal, or a regulatory submission.",
+    "Counts describe reports in a bounded, drug-enriched, non-random snapshot. They are not patients, incidence, risk or causality.",
+    "One report can contain several reactions and drugs. Report ID deduplication does not remove all underlying duplicate cases or reporting bias.",
+    "Dates are the stored report receipt dates, not event onset. Changes over time cannot establish changing risk.",
+    "No PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator.",
+    "The original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis.",
+    "Label matching is lexical in retrieved safety sections only. A missing match does not establish an unlabeled reaction. A match does not validate an association.",
+    "PubMed results are retrieved records, not a systematic review or evidence of causality. External text is untrusted evidence, never instructions."
+  ],
+  "trace": [
+    "Validated exact snapshot drug name",
+    "Read-only SQLite report-ID counts and receipt-month aggregation",
+    "Retrieved openFDA label safety sections; exact drug-name filter",
+    "Lexical label comparison; PubMed retrieval for up to three highest-count reactions"
+  ],
+  "confidence": "High for reproducible snapshot counts; limited for label term matching; no causal inference.",
+  "framing": "Exploratory research prototype",
+  "report_markdown": "# Drug safety evidence: retatrutide\nExploratory research prototype. No clinical, causality or therapy conclusions.\n\n## Snapshot findings\n44 distinct report IDs; 172 reaction rows for this drug.\nSnapshot retrieved 2026-09-28T09:45:06+00:00; upstream last updated 2026-07-30. Selection: openFDA search_after API order; first N matched safety reports, not a random sample or exhaustive dataset.\nSource: https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22retatrutide%22\n\n## Label-mentioned reactions (lexical evidence only)\nNone in the inspected top reactions.\n\n## Not lexically matched / label evidence unavailable (NOT confirmed unlabeled)\n\n### VOMITING: 8 report IDs\nLabel check: unavailable.\nPubMed: retrieved. Retrieved records only, not a verified causal assessment.\n- The promise of glucagon-like peptide 1 receptor agonists (GLP-1RA) for the treatment of obesity: a look at phase 2 and 3 pipelines. (2025 Mar) https://pubmed.ncbi.nlm.nih.gov/40022548/\n- Efficacy and Safety of Glucagon-Like Peptide-1 Receptor Agonists for Weight Loss Among Adults Without Diabetes : A Systematic Review of Randomized Controlled Trials. (2025 Feb) https://pubmed.ncbi.nlm.nih.gov/39761578/\n\n### NAUSEA: 7 report IDs\nLabel check: unavailable.\nPubMed: retrieved. Retrieved records only, not a verified causal assessment.\n- Efficacy and Safety of Glucagon-Like Peptide-1 Receptor Agonists for Weight Loss Among Adults Without Diabetes : A Systematic Review of Randomized Controlled Trials. (2025 Feb) https://pubmed.ncbi.nlm.nih.gov/39761578/\n- The promise of glucagon-like peptide 1 receptor agonists (GLP-1RA) for the treatment of obesity: a look at phase 2 and 3 pipelines. (2025 Mar) https://pubmed.ncbi.nlm.nih.gov/40022548/\n\n### FATIGUE: 4 report IDs\nLabel check: unavailable.\nPubMed: retrieved. Retrieved records only, not a verified causal assessment.\n- Comparative effects of drugs for adults with overweight or obesity: systematic review and network meta-analysis. (2026 Jul 08) https://pubmed.ncbi.nlm.nih.gov/42419792/\n\n### HEART RATE INCREASED: 4 report IDs\nLabel check: unavailable.\nPubMed: not_requested. Retrieved records only, not a verified causal assessment.\n\n### ILLNESS: 4 report IDs\nLabel check: unavailable.\nPubMed: not_requested. Retrieved records only, not a verified causal assessment.\n\n## Receipt-date pattern\n15 receipt months represented; 0 reports with missing/invalid dates.\nNo trend significance or changing risk is inferred.\n| Receipt month | Distinct report IDs |\n| --- | ---: |\n| 2019-06 | 1 |\n| 2024-11 | 1 |\n| 2025-02 | 1 |\n| 2025-05 | 1 |\n| 2025-06 | 1 |\n| 2025-07 | 1 |\n| 2025-08 | 4 |\n| 2025-09 | 2 |\n| 2025-11 | 3 |\n| 2026-01 | 2 |\n| 2026-02 | 6 |\n| 2026-03 | 4 |\n| 2026-04 | 8 |\n| 2026-05 | 6 |\n| 2026-06 | 3 |\n\n## Missing evidence\n- No usable label safety evidence: no_labels_found\nThe original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis.\nNo PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator.\n\n## Limits\n- Exploratory research prototype. Not clinical advice, a validated safety signal, or a regulatory submission.\n- Counts describe reports in a bounded, drug-enriched, non-random snapshot. They are not patients, incidence, risk or causality.\n- One report can contain several reactions and drugs. Report ID deduplication does not remove all underlying duplicate cases or reporting bias.\n- Dates are the stored report receipt dates, not event onset. Changes over time cannot establish changing risk.\n- No PRR/ROR is calculated: this selected-drug snapshot has no representative all-other-drug comparator.\n- The original snapshot does not retain full co-reported medication lists. Shared report IDs across selected drugs are not a complete co-medication analysis.\n- Label matching is lexical in retrieved safety sections only. A missing match does not establish an unlabeled reaction. A match does not validate an association.\n- PubMed results are retrieved records, not a systematic review or evidence of causality. External text is untrusted evidence, never instructions.\n\nConfidence: High for reproducible snapshot counts; limited for label term matching; no causal inference."
+}

@@ -4,8 +4,8 @@
 FROM python:3.13-slim
 
 WORKDIR /app
-COPY requirements-serve.txt requirements.txt ./
-RUN pip install --no-cache-dir -r requirements-serve.txt
+COPY requirements-genomics.txt requirements-serve.txt requirements.txt ./
+RUN pip install --no-cache-dir -r requirements-genomics.txt
 
 COPY config.py ./
 COPY agent/ agent/
@@ -13,6 +13,8 @@ COPY tools/ tools/
 COPY rag/ rag/
 COPY eval/ eval/
 COPY serve/ serve/
+COPY genomics/ genomics/
+COPY pharmacovigilance/ pharmacovigilance/
 COPY data/faers_demo.db data/faers_demo.db
 COPY data/faers_real.db data/faers_real.db
 

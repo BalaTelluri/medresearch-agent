@@ -22,3 +22,9 @@ sentence-transformers==6.1.0
 # Eval + fine-tuning (weekend 2-3)
 datasets==5.0.1
 ragas==0.4.3
+
+# Genomics evidence + CPU classifier
+scikit-learn==1.7.2
+joblib==1.5.3
+pysam==0.23.3
+httpx==0.28.1

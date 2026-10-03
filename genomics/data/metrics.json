@@ -1,0 +1,43 @@
+{
+  "evaluation": "held-out-gene test sample, NOT clinical validation",
+  "seed": 42,
+  "train_variants": 31166,
+  "test_variants": 8834,
+  "train_genes": 3549,
+  "test_genes": 888,
+  "gene_overlap": 0,
+  "variation_id_overlap": 0,
+  "accuracy": 0.9314014036676477,
+  "balanced_accuracy": 0.9277374335731332,
+  "pathogenic_precision": 0.8983313930927435,
+  "pathogenic_recall": 0.982597623089983,
+  "pathogenic_f1": 0.9385769308737076,
+  "roc_auc": 0.9801671627829964,
+  "confusion_matrix_true_rows_pred_columns_0_benign_1_pathogenic": [
+    [
+      3598,
+      524
+    ],
+    [
+      82,
+      4630
+    ]
+  ],
+  "accuracy_wilson_95_ci_variant_level_not_gene_clustered": [
+    0.9259405678585958,
+    0.9364871995727643
+  ],
+  "majority_class_test_accuracy": 0.5333937061353861,
+  "test_class_counts": {
+    "benign": 4122,
+    "pathogenic": 4712
+  },
+  "limitations": [
+    "Balanced sample, not natural prevalence",
+    "Known ClinVar variants only; ascertainment bias",
+    "Sequence/consequence features only, no functional assays",
+    "No external cohort, prospective evaluation, or clinical validation",
+    "Scores uncalibrated; not patient risk",
+    "Gene holdout limits one leakage path but not all biological dependence"
+  ]
+}

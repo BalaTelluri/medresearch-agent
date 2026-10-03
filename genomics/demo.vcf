@@ -1,0 +1,5 @@
+##fileformat=VCFv4.2
+##reference=GRCh38
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+13	32380145	.	G	T	.	PASS	.
+13	32333270	.	A	G	.	PASS	.
